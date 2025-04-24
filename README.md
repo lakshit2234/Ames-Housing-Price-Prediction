@@ -47,7 +47,18 @@ Ames Housing Price Prediction/
 
 ##  How to Run
 
-1. Clone the repository or download the folder.
+1. Clone the Repository
+git clone https://github.com/lakshit2234/Ames-Housing-Price-Prediction.git
+cd Ames-Housing-Price-Prediction
+
 2. Install dependencies using:
    ```bash
-   pip install -r requirements.txt         
+   pip install -r requirements.txt
+
+3. Download the Dataset
+Make sure the train.csv file is present in the project root directory. If not, download it from Kaggle - Ames Housing Dataset and place it in the folder.
+
+4. Run the Jupyter Notebook
+jupyter notebook
+
+Open the file Ames_Housing_Regression.ipynb in the browser and run all the cells sequentially.        
